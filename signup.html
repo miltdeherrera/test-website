@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up for info about Steely Dan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div><a href="homepage.html" class="nav-button">Homepage</a></div>
+        <div><a href="signup.html" class="nav-button">Sign-up form</a></div>
+        <div><a href="bestalbums.html" class="nav-button">Best albums</a></div>
+        <div><a href="gallery.html" class="nav-button">Image gallery</a></div>
+    </nav>
+
+    <form action="" method="post">
+
+        <fieldset>
+            <legend>
+                Sign up for info about Steel Dan.
+            </legend>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div>
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="sd_rules">I agree that Steely Dan rules.</label>
+                <input type="checkbox" name="sd_rules" id="sd_rules" checked>
+            </div>
+
+            <div>
+                <label for="explanation">Explain what got you into loving the Dan.</label>
+                <textarea id="explanation" name="explanation" rows="4" cols="50"></textarea>
+
+            </div>
+
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
