@@ -1,7 +1,3 @@
-h1 {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 html {
     background-color: #7389AE;
     font-family: 'Open Sans', sans-serif;
@@ -11,6 +7,31 @@ nav {
     display: flex;
     padding-top: 20px;
 }
+
+.nav-button {
+    background-color: #416788;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 3px;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.img-site-header {
+    width: 30%;
+    left: 30px;
+    position: relative;
+    border: 4px solid black;
+}
+
+li {
+    font-style: italic;
+}
+
 
 form {
     margin: 30px auto;
@@ -23,25 +44,6 @@ legend {
     font-style: italic;
 }
 
-li {
-    font-style: italic;
-}
-
-.nav-button {
-    background-color: #416788;
-    color: white;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 3px;
-    text-decoration: none;
-}
-
-.img-site-header {
-    width: 30%;
-    left: 30px;
-    position: relative;
-    border: 4px solid black;
-}
 
 .gallery {
     padding: 20px;
